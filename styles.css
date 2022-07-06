@@ -1,16 +1,25 @@
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .title {
     font-size: x-large;
   }
-}
+} */
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 50px;
+  display: flex;
+  justify-content: center;
 }
 .tops {
-  background-color: rgb(205, 203, 203);
+  background: linear-gradient(90deg, rgba(94,232,182,1) 0%, rgba(0,212,255,1) 100%);
   padding: 40px;
   border-radius: 2vh;
+  width: 300px;
+  box-shadow: 3px 3px 5px rgba(129, 128, 128, 0.701);
+  height: 350px;
+}
+.tops:hover{
+  background: linear-gradient(360deg, rgba(94,232,182,1) 0%, rgba(0,212,255,1) 100%);
+
 }
 button {
   background-color: black;
@@ -38,7 +47,7 @@ button:hover {
 #result {
   margin: 40px 10px;
   text-align: center;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 800;
   text-shadow: 2px 2px rgb(30, 30, 30);
 }
