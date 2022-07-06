@@ -1,0 +1,44 @@
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: x-large;
+  }
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 50px;
+}
+.tops {
+  background-color: rgb(205, 203, 203);
+  padding: 40px;
+  border-radius: 2vh;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  border-radius: 2vh;
+  box-shadow: 2px 2px blue;
+  transition: 0.4s;
+  font-size: 15px;
+}
+button:hover {
+  background-color: rgb(53, 52, 52);
+  box-shadow: 2px 2px rgb(10, 10, 134);
+  transform: scale(1.05);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.bots {
+  display: grid;
+}
+#result {
+  margin: 40px 10px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+  text-shadow: 2px 2px rgb(30, 30, 30);
+}
